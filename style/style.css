@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+:root {
+  --primaryColor: rgb(147 51 234);
+  /* --primaryColorLight: #884ccc; */
+  --primaryColorHover: rgb(126 34 206);
+  /* --bgLight: #d9d9d940; */
+  --bgLight: #d9d9d922;
+  --bgBlackLight : #000000c2;
+  --icon : #4f4e4e;
+  --preferred-size: 4vw;
+  --inputStroke : #9c9c9c87;
+}
+
+body {
+  font-family: "Istok Web", sans-serif;
+}
+
+/* Autofill suggestion styling for WebKit browsers (Chrome, Safari, Edge) */
+input:-webkit-autofill {
+  background-color: var(--bgBlackLight) !important;
+  -webkit-text-fill-color: #fff !important;
+  -webkit-box-shadow: 0 0 0px 1000px var(--bgBlackLight) inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Autofill suggestion styling for Mozilla Firefox */
+input:-moz-autofill {
+  background-color: var(--bgBlackLight) !important;
+  color: #fff !important;
+}
+
+/* Container */
+.circle-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Circle styles */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  /* background-color: var(--bgLight); */
+  background-color: var(--bgLight);
+  pointer-events: none;
+}
+
+/* navbar */
+.glassEffect {
+  background: rgba(255, 255, 255, 0.15);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+.glassEffect2 {
+  background: rgb(146, 51, 234);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+.glassEffect3 {
+  background: rgba(255, 255, 255, 0.10);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(2px);
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+/* .menuIcon {
+  font-size: clamp(10px, 3vh, 32px);
+  width: clamp(40px, var(--preferred-size), 60px);
+  height: clamp(40px, var(--preferred-size), 60px);
+} */
+
+/* home img section */
+.blob {
+  background: linear-gradient(135deg, #a855f7, #d8b4fe); /* Purple gradient */
+  width: 250px; /* Adjust width */
+  height: 250px; /* Adjust height */
+  border-radius: 50% 80% 60% 90% / 60% 50% 70% 50%; /* Irregular shape */
+}
+
+
+.swiper{
+  width: 100%;
+}
+
+.swiper-wrapper{
+  width: 100%;
+  height: 35em;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide:not(.swiper-slide-active) {
+  filter : blur(1px);
+}

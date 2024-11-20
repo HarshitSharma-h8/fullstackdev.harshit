@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFin | Harshit | Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-black h-screen w-screen relative overflow-hidden">
+    <div class="circle-container z-0 "></div>
+    <div class="z-[1] h-full w-full lg:flex absolute top-0 left-0">
+        <header class="hidden lg:block w-full lg:w-[8%]   lg:h-full px-8 lg:px-0  glassEffect3" id="navbar">
+            <nav class="h-full w-full flex lg:flex-col items-center justify-around lg:py-20 lg:px-8">
+                <a href="./index.html"  title="Home"
+                    class="menuIcon xl:text-2xl lg:text-xl xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px]   bg-[var(--icon)] hover:bg-[var(--primaryColor)] text-white  rounded-full  flex justify-center items-center transition duration-300 ease-in-out ">
+                    <i class="fa-solid fa-house-user"></i>
+                </a>
+                <a href="./work.html"  title="Work"
+                    class="menuIcon xl:text-2xl lg:text-xl xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px] hover:bg-[var(--primaryColor)] bg-[var(--icon)] text-white   rounded-full  flex justify-center items-center transition duration-300 ease-in-out ">
+                    <i class="fa-solid fa-folder"></i>
+                </a>
+                <a href="./skills.html"  title="Skills & Experience"
+                    class="menuIcon xl:text-2xl lg:text-xl xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px] hover:bg-[var(--primaryColor)] bg-[var(--icon)] text-white   rounded-full  flex justify-center items-center transition duration-300 ease-in-out ">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                </a>
+                <a href="./expertise.html"  title="My Expertise"
+                    class="menuIcon xl:text-2xl lg:text-xl xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px] hover:bg-[var(--primaryColor)] bg-[var(--icon)] text-white   rounded-full  flex justify-center items-center transition duration-300 ease-in-out ">
+                    <i class="fa-solid fa-cubes"></i>
+                </a>
+                <a href="./feedback.html"  title="Feedback"
+                    class="menuIcon xl:text-2xl lg:text-xl xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px] hover:bg-[var(--primaryColor)] bg-[var(--icon)]  text-white   rounded-full  flex justify-center items-center transition duration-300 ease-in-out ">
+                    <i class="fa-solid fa-message"></i>
+                </a>
+                <a href="./contact.html" title="Contact Us"
+                    class="menuIcon xl:text-2xl lg:text-xl xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px] hover:bg-[var(--primaryColor)] bg-[var(--primaryColor)] text-white  rounded-full  flex justify-center items-center transition duration-300 ease-in-out ">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </nav>
+        </header>
+        <main class=" relative w-full lg:w-[93%] lg:h-[100vh] ">
+            <!-- Top section  -->
+            <div
+                class="px-16 py-4 text-white border-b-2 border-[var(--primaryColor)] flex justify-between items-center h-[10vh] ">
+                <h1 class="text-[clamp(1rem,3vw,2.2rem)]">Contact Us</h1>
+                <a href="./contact.html"
+                    class="text-[clamp(.8rem,5vw,1.1rem)] bg-[var(--primaryColor)] hover:bg-[var(--primaryColorHover)] px-4 py-1.5 rounded-md transition duration-300 ease-in-out">Connect
+                </a>
+            </div>
+            
+
+            
+            <!-- contact us -->
+            <section id="contact" class="  px-16  flex flex-col justify-center w-full text-white  h-[80vh] ">
+                <div class="grid lg:grid-cols-2 gap-10 h-[90%]">
+                    <div class="relative flex justify-center items-center">
+                        <!-- <div class="blob w-64 h-64"></div> -->
+                        <img src="./assets/Ellipse 3.png" class="xl:w-[390px] lg:w-[320px] ml-4" alt="blobimg">
+                        <div class="absolute w-full h-full flex justify-center items-center">
+                            <img src="./assets/contact.png" alt="huomeimg" class=" w-[250px]">
+                        </div>
+                    </div>
+                    <div class="glassEffect3 rounded-2xl p-8  h-full flex flex-col justify-between gap-4">
+                        <div class=" p-8 rounded-lg ">
+                            <h2 class="text-xl font-medium mb-4">Have a great idea in mind, let's work together.</h2>
+
+                            <form id="contactForm">
+                                <div class="mb-4">
+                                    <label for="fullName" class="block text-[1.1rem] font-medium">Full Name</label>
+                                    <input type="text" id="fullName" name="fullName"
+                                        class="w-full mt-1 p-2 bg-[var(--bgBlackLight)] border-2 border-[var(--inputStroke)] rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                                        placeholder="Enter your full name" required>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label for="email" class="block text-[1.1rem] font-medium">Email</label>
+                                    <input type="email" id="email" name="email"
+                                        class="w-full mt-1 p-2 bg-[var(--bgBlackLight)] border-2 border-[var(--inputStroke)] rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                                        placeholder="Enter your email" required>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label for="message" class="block text-[1.1rem] font-medium">Messages</label>
+                                    <textarea id="message" name="message" rows="4"
+                                        class="w-full mt-1 p-2 bg-[var(--bgBlackLight)] border-2 border-[var(--inputStroke)] rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 "
+                                        placeholder="Enter your message" required></textarea>
+                                </div>
+
+                                
+                                <button type="submit"
+                                    class="text-[clamp(.8rem,5vw,1.1rem)] bg-[var(--primaryColor)] hover:bg-[var(--primaryColorHover)] px-4 py-1.5 rounded-md transition duration-300 ease-in-out">Send Messages
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            
+
+            
+
+           
+
+            <footer class=" bottom-0 w-full px-16 py-4  h-[10vh]">
+
+                <div class="flex items-center justify-end space-x-4  ">
+                    <!-- Purple Line -->
+                    <div class="w-1/4 h-[.15rem] bg-[var(--primaryColor)] rounded-md "></div>
+
+                    <!-- soical -->
+                    <div class="flex gap-4">
+                        <a href="https://x.com/Harshit05150861" target="_blank"
+                            class="text-white bg-[var(--primaryColor)] hover:bg-[var(--primaryColorHover)] flex justify-center items-center w-[40px] h-[40px] rounded-full text-xl transition duration-300 ease-in-out"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/harshit-sharma-fullstack-devfin/" target="_blank"
+                            class="text-[var(--primaryColor)] bg-white hover:bg-[var(--primaryColor)] hover:text-white flex justify-center items-center w-[40px] h-[40px] rounded-full text-xl transition duration-300 ease-in-out"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="./index.html"
+                            class="text-[var(--primaryColor)] bg-white hover:bg-[var(--primaryColor)] hover:text-white flex justify-center items-center w-[40px] h-[40px] rounded-full text-xl transition duration-300 ease-in-out"><i
+                                class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>

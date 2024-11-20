@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFin | Harshit | Expertise</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-black h-screen w-screen relative overflow-hidden">
+    <div class="circle-container z-0 "></div>
+    <div class="z-[1] h-full w-full lg:flex absolute top-0 left-0">
+        <header class="hidden lg:block w-full lg:w-[8%]   lg:h-full px-8 lg:px-0  glassEffect3" id="navbar">
+            <nav class="h-full w-full flex lg:flex-col items-center justify-around lg:py-20 lg:px-8">
+                <a href="./index.html"  title="Home"
+                    class="menuIcon xl:text-2xl lg:text-xl xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px]   bg-[var(--icon)] hover:bg-[var(--primaryColor)] text-white  rounded-full  flex justify-center items-center transition duration-300 ease-in-out ">
+                    <i class="fa-solid fa-house-user"></i>
+                </a>
+                <a href="./work.html"  title="Work"
+                    class="menuIcon xl:text-2xl lg:text-xl xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px] hover:bg-[var(--primaryColor)] bg-[var(--icon)] text-white   rounded-full  flex justify-center items-center transition duration-300 ease-in-out ">
+                    <i class="fa-solid fa-folder"></i>
+                </a>
+                <a href="./skills.html"  title="Skills & Experience"
+                    class="menuIcon xl:text-2xl lg:text-xl xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px] hover:bg-[var(--primaryColor)] bg-[var(--icon)] text-white   rounded-full  flex justify-center items-center transition duration-300 ease-in-out ">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                </a>
+                <a href="./expertise.html"  title="My Expertise"
+                    class="menuIcon xl:text-2xl lg:text-xl xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px] hover:bg-[var(--primaryColor)] bg-[var(--primaryColor)] text-white   rounded-full  flex justify-center items-center transition duration-300 ease-in-out ">
+                    <i class="fa-solid fa-cubes"></i>
+                </a>
+                <a href="./feedback.html"  title="Feedback"
+                    class="menuIcon xl:text-2xl lg:text-xl xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px] hover:bg-[var(--primaryColor)] text-white  bg-[var(--icon)] rounded-full  flex justify-center items-center transition duration-300 ease-in-out ">
+                    <i class="fa-solid fa-message"></i>
+                </a>
+                <a href="./contact.html" title="Contact Us"
+                    class="menuIcon xl:text-2xl lg:text-xl xl:w-[60px] xl:h-[60px] lg:w-[50px] lg:h-[50px] hover:bg-[var(--primaryColor)] text-white  bg-[var(--icon)] rounded-full  flex justify-center items-center transition duration-300 ease-in-out ">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </nav>
+        </header>
+        <main class=" relative w-full lg:w-[93%] lg:h-[100vh] ">
+            <!-- Top section  -->
+            <div
+                class="px-16 py-4 text-white border-b-2 border-[var(--primaryColor)] flex justify-between items-center h-[10vh] ">
+                <h1 class="text-[clamp(1rem,3vw,2.2rem)]">My Expertise</h1>
+                <a href="./contact.html"
+                    class="text-[clamp(.8rem,5vw,1.1rem)] bg-[var(--primaryColor)] hover:bg-[var(--primaryColorHover)] px-4 py-1.5 rounded-md transition duration-300 ease-in-out">Connect
+                </a>
+            </div>
+            
+
+            
+            
+
+            <!-- My expertiese -->
+            <section id="expertise" class="  px-16  flex flex-col justify-center w-full text-white  h-[80vh] ">
+                <div class="grid lg:grid-cols-3 gap-6 h-[90%]">
+                    <div class=" h-full rounded-2xl gap-6 grid lg:grid-rows-2">
+                        <div class="glassEffect3 rounded-2xl">
+                            <div class="p-6">
+                                <h2 class="text-white text-[1.2rem]">
+                                    A passionate frontend and backend developer working with web technologies for 2
+                                    years. Using <span class="bg-[#00d2f5] px-2 rounded">React.js</span>, <span
+                                        class="bg-black px-2 rounded">Next.js</span>, <span
+                                        class="bg-yellow-500 px-2 rounded">JavaScript</span>, <span
+                                        class="bg-[#0176c6] px-2 rounded">Typescript</span> to create dynamic, seamless,
+                                    and user-friendly web applications.
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="glassEffect2 rounded-2xl relative group">
+                            <div class="p-6 flex flex-col justify-between h-full">
+                                <h3 class="text-4xl">Backend <br>Development</h3>
+                                <p class="text-xl italic uppercase">Crafting scalable backend solutions for lasting
+                                    impact</p>
+                                <a href="./work.html"
+                                    class=" absolute top-4 right-4 text-[var(--primaryColor)] bg-[var(--bgBlackLight)] group-hover:-rotate-45 flex justify-center items-center w-[60px] h-[60px] rounded-full text-2xl transition duration-300 ease-in-out"><i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glassEffect3 h-full rounded-2xl p-8 ">
+                        <h2 class="text-[var(--primaryColor)] text-5xl font-medium text-center">My Expertise</h2>
+                        <div class="flex justify-center items-center mt-10">
+                            <img src="./assets/home.png" alt="servuices" class=" w-[400px] ">
+                        </div>
+                    </div>
+                    <div class=" h-full rounded-2xl gap-6 grid lg:grid-rows-2">
+                        <div class="glassEffect2 rounded-2xl relative group">
+                            <div class="p-6 flex flex-col justify-between h-full">
+                                <h3 class="text-4xl">Web & Web Application <br>Development</h3>
+                                <p class="text-xl italic uppercase">Crafting resilient web solutions for lasting impact
+                                </p>
+                                <a href="./work.html"
+                                    class=" absolute top-4 right-4 text-[var(--primaryColor)] bg-[var(--bgBlackLight)] group-hover:-rotate-45 flex justify-center items-center w-[60px] h-[60px] rounded-full text-2xl transition duration-300 ease-in-out"><i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="glassEffect3 rounded-2xl relative group">
+                            <div class="p-6 flex flex-col justify-between h-full">
+                                <h3 class="text-4xl">UI/UX <br>Design</h3>
+                                <p class="text-xl italic">ENSURING INTUITIVE AND DELIGHTFUL USER EXPERIENCES</p>
+                                <a href="./work.html"
+                                    class=" absolute top-4 right-4 text-[var(--primaryColor)] bg-[var(--bgBlackLight)] group-hover:-rotate-45 flex justify-center items-center w-[60px] h-[60px] rounded-full text-2xl transition duration-300 ease-in-out"><i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            
+
+           
+
+            <footer class=" bottom-0 w-full px-16 py-4  h-[10vh]">
+
+                <div class="flex items-center justify-end space-x-4  ">
+                    <!-- Purple Line -->
+                    <div class="w-1/4 h-[.15rem] bg-[var(--primaryColor)] rounded-md "></div>
+
+                    <!-- soical -->
+                    <div class="flex gap-4">
+                        <a href="https://x.com/Harshit05150861" target="_blank"
+                            class="text-white bg-[var(--primaryColor)] hover:bg-[var(--primaryColorHover)] flex justify-center items-center w-[40px] h-[40px] rounded-full text-xl transition duration-300 ease-in-out"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/harshit-sharma-fullstack-devfin/" target="_blank"
+                            class="text-[var(--primaryColor)] bg-white hover:bg-[var(--primaryColor)] hover:text-white flex justify-center items-center w-[40px] h-[40px] rounded-full text-xl transition duration-300 ease-in-out"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="./feedback.html"
+                            class="text-[var(--primaryColor)] bg-white hover:bg-[var(--primaryColor)] hover:text-white flex justify-center items-center w-[40px] h-[40px] rounded-full text-xl transition duration-300 ease-in-out"><i
+                                class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>
