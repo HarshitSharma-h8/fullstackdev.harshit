@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 :root {
   --primaryColor: rgb(147 51 234);
+  --primaryColorLight: rgba(146, 51, 234, 0.611);
   /* --primaryColorLight: #884ccc; */
   --primaryColorHover: rgb(126 34 206);
   /* --bgLight: #d9d9d940; */
   --bgLight: #d9d9d922;
-  --bgBlackLight : #000000c2;
-  --icon : #4f4e4e;
+  --bgBlackLight: #000000c2;
+  --icon: #4f4e4e;
   --preferred-size: 4vw;
-  --inputStroke : #9c9c9c87;
+  --inputStroke: #9c9c9c87;
 }
 
 body {
@@ -62,7 +63,7 @@ input:-moz-autofill {
   /* border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 .glassEffect3 {
-  background: rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.1);
   /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(2px);
@@ -83,12 +84,11 @@ input:-moz-autofill {
   border-radius: 50% 80% 60% 90% / 60% 50% 70% 50%; /* Irregular shape */
 }
 
-
-.swiper{
+.swiper {
   width: 100%;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   width: 100%;
   height: 35em;
   display: flex;
@@ -96,5 +96,6 @@ input:-moz-autofill {
 }
 
 .swiper-slide:not(.swiper-slide-active) {
-  filter : blur(1px);
+  filter: blur(1px);
 }
+

@@ -89,34 +89,3 @@ function animateCircles() {
 
 // Start animation
 animateCircles();
-
-// navbar
-
-// // pages
-// const home = document.getElementById("home");
-// const work = document.getElementById("work");
-// const skills = document.getElementById("skills");
-// const expertise = document.getElementById("expertise");
-// const testimonial = document.getElementById("testimonial");
-// const contact = document.getElementById("contact");
-
-// const menuIcons = document.querySelectorAll(".menuIcon");
-// const menuArr = [home, work, skills, expertise, testimonial, contact];
-
-// menuIcons.forEach((icon) => {
-//   icon.addEventListener("click", function () {
-//     menuIcons.forEach((icon) =>
-//       icon.classList.remove("bg-[var(--primaryColor)]")
-//     );
-//     this.classList.add("bg-[var(--primaryColor)]");
-//     // menuArr.forEach((elm) => elm.classList.add("hidden"));
-//     const title = this.getAttribute("title");
-//     menuArr.forEach((elm) => {
-//       if (elm.id.toLowerCase() === title.toLowerCase()) {
-//         elm.classList.remove("hidden"); // Show the matched element
-//       } else {
-//         elm.classList.add("hidden");
-//       }
-//     });
-//   });
-// });
