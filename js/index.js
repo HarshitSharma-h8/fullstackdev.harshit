@@ -89,3 +89,22 @@ function animateCircles() {
 
 // Start animation
 animateCircles();
+
+// skilss and experience
+const edu_btn = document.getElementById('edu-btn') 
+const exp_btn = document.getElementById('exp-btn') 
+const education = document.getElementById("education");
+const experience = document.getElementById("experience");
+edu_btn.addEventListener("click", function() {
+  experience.classList.add("hidden")
+  education.classList.remove("hidden")
+  this.classList.add('bg-[var(--primaryColor)]')
+  exp_btn.classList.remove('bg-[var(--primaryColor)]')
+});
+
+exp_btn.addEventListener("click", function() {
+  education.classList.add("hidden")
+  experience.classList.remove("hidden")
+  this.classList.add('bg-[var(--primaryColor)]')
+  edu_btn.classList.remove('bg-[var(--primaryColor)]')
+});
